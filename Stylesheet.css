@@ -1,0 +1,34 @@
+table {
+	border: 1px solid;
+	border-color: black;
+	font-family: Verdana, tahoma, sasn-serif;
+		box-shadow: 0 0 4px #333;
+}
+
+tbody{
+	border: 1px solid black;
+}
+
+thead {
+	background-color: #ddd;
+}
+
+tbody:hover{
+	background-color: tomato; 
+	border: 1px solid black;
+	
+}
+
+img{	
+	position: relative;
+	width: 120 px;	
+	height: 200px;
+}
+
+tr {
+ -webkit-transition: background-color 2s;
+    -moz-transition: background-color 2s;
+      -ms-transition: background-color 2s;
+         -o-transition: background-color 2s;
+              transition: background-color 2s;
+}
